@@ -1,0 +1,119 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ambiente Python
+venv/
+env/
+.env
+.venv
+ENV/
+env.bak/
+venv.bak/
+.python-version
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / empacotamento
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+.vs/
+
+# Arquivos de log
+*.log
+logs/
+log/
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivos de dados grandes
+*.csv
+*.dat
+*.pkl
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+# Arquivos de modelo
+*.model
+*.joblib
+*.pkl
+*.h5
+models/
+
+# Arquivos de configuração local
+config.local.py
+settings.local.py
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Arquivos de documentação
+docs/_build/
+site/
+
+# Arquivos específicos do projeto
+# Adicione exceções para arquivos de dados necessários
+!seeds_dataset.txt
+!requirements.txt
+
+# Arquivos de resultado
+results/
+output/
+figures/
+plots/
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Arquivos de sistema Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos de sistema Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Arquivos de sistema Linux
+.directory
+.Trash-*
